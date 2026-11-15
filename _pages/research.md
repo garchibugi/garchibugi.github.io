@@ -8,4 +8,7 @@ My research is in labour economics, political economy and economic history.
 
 ## Work in progress
 
-*Papers coming soon.*
+**Railways, Identity and Cultural Change in Post-Unification Italy**  
+with Giacomo Gattorno
+
+**Rewiring Networks: Improving Educational and Social Outcomes Beyond the Classroom**
