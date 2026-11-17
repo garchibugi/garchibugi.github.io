@@ -16,6 +16,8 @@ description              : &description "Gabriele Archibugi, PhD student in Econ
 url                      : https://garchibugi.github.io
 baseurl                  : ""
 repository               : "garchibugi/garchibugi.github.io"
+banner_image             :  # wide picture shown under the top menu; put the file in /images/ and write its name here
+banner_alt               :  # short description of the picture
 
 author:
   # Biographic information

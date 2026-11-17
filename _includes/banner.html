@@ -1,0 +1,9 @@
+{% include base_path %}
+
+<div class="site-banner">
+  {% if site.banner_image %}
+    <img src="{{ base_path }}/images/{{ site.banner_image }}" alt="{{ site.banner_alt | default: '' }}">
+  {% else %}
+    <div class="site-banner__placeholder" aria-hidden="true"></div>
+  {% endif %}
+</div>

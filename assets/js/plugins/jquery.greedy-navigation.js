@@ -58,13 +58,13 @@ function updateNav() {
   // Keep counter updated
   $btn.attr("count", breaks.length);
 
-  // update masthead height and the body/sidebar top padding
+  // update masthead height, the body top padding and the sticky sidebar offset
   var mastheadHeight = $('.masthead').height();
   $('body').css('padding-top', mastheadHeight + 'px');
   if ($(".author__urls-wrapper button").is(":visible")) {
-    $(".sidebar").css("padding-top", "");
+    $(".sidebar").css("top", "");
   } else {
-    $(".sidebar").css("padding-top", mastheadHeight + "px");
+    $(".sidebar").css("top", mastheadHeight + "px");
   }
 
 }

@@ -1,0 +1,34 @@
+/* ==========================================================================
+   SITE BANNER (wide picture under the top menu)
+   ========================================================================== */
+
+.site-banner {
+  @include container;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  img,
+  .site-banner__placeholder {
+    display: block;
+    width: 100%;
+    height: 140px;
+    border-radius: $border-radius;
+
+    @include breakpoint($medium) {
+      height: 220px;
+    }
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  .site-banner__placeholder {
+    background: $primary-color;
+  }
+}
