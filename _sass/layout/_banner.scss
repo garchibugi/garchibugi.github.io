@@ -16,19 +16,20 @@
   .site-banner__placeholder {
     display: block;
     width: 100%;
-    height: 140px;
     border-radius: $border-radius;
+  }
+
+  // The picture keeps its own proportions, so crop it to the shape you want.
+  img {
+    height: auto;
+  }
+
+  .site-banner__placeholder {
+    height: 140px;
+    background: $primary-color;
 
     @include breakpoint($medium) {
       height: 220px;
     }
-  }
-
-  img {
-    object-fit: cover;
-  }
-
-  .site-banner__placeholder {
-    background: $primary-color;
   }
 }
