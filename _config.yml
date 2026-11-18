@@ -16,8 +16,8 @@ description              : &description "Gabriele Archibugi, PhD student in Econ
 url                      : https://garchibugi.github.io
 baseurl                  : ""
 repository               : "garchibugi/garchibugi.github.io"
-banner_image             : "banner_colosseum.jpg" # wide picture shown under the top menu; put the file in /images/ and write its name here
-banner_alt               : "Pine trees and the Colosseum seen from the Palatine Hill" # short description of the picture
+banner_image             : "banner_porta_maggiore.jpg" # wide picture shown under the top menu; put the file in /images/ and write its name here
+banner_alt               : "Porta Maggiore in Rome, nineteenth-century photograph" # short description of the picture
 
 author:
   # Biographic information
